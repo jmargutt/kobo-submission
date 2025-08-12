@@ -18,10 +18,11 @@ submission = {
 }
 
 data_request = requests.post(
-    f'https://kcnew.ifrc.org/api/v1/submissions',
+    f'https://kc.ifrc.org/api/v1/submissions',
     json={
         "id": "<my-asset>",
         "submission": submission
     },
     headers=headers
 )
+
